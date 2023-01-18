@@ -21,6 +21,7 @@
         </style>
     </head>
     <body>
+        <h1>Lista Treni da oggi in poi</h1>
         <ul>
             @foreach ($trains as $train)
                 <li>{{$train->departure_station}}-{{$train->arrival_station}}</li>
